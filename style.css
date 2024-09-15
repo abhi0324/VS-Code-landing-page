@@ -12,6 +12,10 @@ body {
     margin: 15px;
 }
 
+button {
+    cursor: pointer;
+}
+
 .box {
     display: flex;
     align-items: center;
@@ -23,6 +27,7 @@ body {
     font-size: 20px;
     /* display:flex;
     align-content: center; */
+    cursor: pointer;
 }
 
 .box1 img {
@@ -35,6 +40,11 @@ body {
     font-weight: 500;
     size: 16px;
     padding: 4px;
+    cursor: pointer;
+}
+
+.box2 span:hover {
+    color: rgb(233, 234, 235);
 }
 
 .box2 span {
